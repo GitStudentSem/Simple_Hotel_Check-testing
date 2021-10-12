@@ -7,7 +7,7 @@ const Header = (props) => {
     <header className={s.header}>
       <p className={s.header_name}>Simple Hotel Check</p>
       <button className={s.login_logout}>
-        Войти
+        Выйти
         <img src={log_out} alt="Выйти из приложения" />
       </button>
     </header>

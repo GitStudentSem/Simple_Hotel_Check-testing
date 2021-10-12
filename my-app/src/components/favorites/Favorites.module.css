@@ -1,0 +1,48 @@
+.favorites {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  padding: 32px;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #424242;
+  margin: 0 0 32px 0;
+}
+.star {
+  background: #cdbc1e;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.button_wrapper {
+  max-width: 168px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.rating_sort,
+.price_sort {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #41522e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #41522e;
+}
+.arrows {
+  margin-left: 10px;
+}
+.arrows img {
+  display: block;
+}

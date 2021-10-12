@@ -15,9 +15,8 @@ const Search = (props) => {
         <span className={s.error_message}></span>
       </label>
       <label className={s.sign}>
-        {/* Стиль error динамический */}
         <span className={s.error}>Количество дней</span>
-        <input type="text" className={s.error} />
+        <input type="number" className={s.error} />
         <span className={s.error_message}>Описание ошибки будет тут</span>
       </label>
       <button className={s.button}>Войти</button>
