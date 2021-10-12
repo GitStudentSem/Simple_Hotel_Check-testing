@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 28px;
 }
 .breadcrumb {
   display: flex;
@@ -54,6 +55,7 @@
   font-size: 17px;
   line-height: 22px;
   color: #424242;
+  margin: 28px 0 12px 0;
 }
 .count {
   font-weight: 500;
