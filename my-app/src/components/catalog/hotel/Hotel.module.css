@@ -1,10 +1,22 @@
 .hotel {
   border-bottom: 1px solid rgba(135, 135, 135, 0.2);
   padding: 16px 0 16px 0;
-  height: 91px;
+  height: 75px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+}
+.photo {
+  background: rgba(65, 82, 46, 0.05);
+  height: 64px;
+  width: 64px;
+  line-height: 80px; /*Высота блока + 1/2 высоты картинки*/
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+.info {
+  width: 100%;
 }
 .name {
   font-family: "Roboto";

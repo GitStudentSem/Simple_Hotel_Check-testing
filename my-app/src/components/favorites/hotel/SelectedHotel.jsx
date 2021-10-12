@@ -2,9 +2,9 @@ import React from "react";
 import active_star from "../../../icons/active_star.svg";
 import disabled_star from "../../../icons/disabled_star.svg";
 import like from "../../../icons/like.svg";
-import s from "./Hotel.module.css";
+import s from "./SelectedHotel.module.css";
 
-const Hotel = (props) => {
+const SelectedHotel = (props) => {
   return (
     <div className={s.hotel}>
       <div className={s.top_line}>
@@ -34,4 +34,4 @@ const Hotel = (props) => {
     </div>
   );
 };
-export default Hotel;
+export default SelectedHotel;

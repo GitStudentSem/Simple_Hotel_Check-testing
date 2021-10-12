@@ -1,0 +1,68 @@
+.hotel {
+  border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+  padding: 16px 0 16px 0;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  color: #424242;
+  margin: 0;
+}
+.top_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dates {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #878787;
+}
+.like {
+  background: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.dash {
+  display: block;
+  width: 9px;
+  height: 2px;
+  margin: 0 14px 0 14px;
+  background: #c4c4c4;
+  border-radius: 2px;
+}
+.bottom_line {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 22px;
+  color: #878787;
+  margin-right: 8px;
+}
+.price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: #424242;
+}

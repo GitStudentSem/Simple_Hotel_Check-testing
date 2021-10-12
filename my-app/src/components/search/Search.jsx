@@ -19,7 +19,7 @@ const Search = (props) => {
         <input type="number" className={s.error} />
         <span className={s.error_message}>Описание ошибки будет тут</span>
       </label>
-      <button className={s.button}>Войти</button>
+      <button className={s.button}>Найти отель</button>
     </div>
   );
 };

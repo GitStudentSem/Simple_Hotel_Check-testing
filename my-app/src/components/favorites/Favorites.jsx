@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Favorites.module.css";
-import Hotel from "./hotel/Hotel";
+import SelectedHotel from "./hotel/SelectedHotel";
 import arrow_top from "../../icons/arrow_top.svg";
 import arrow_bottom from "../../icons/arrow_bottom.svg";
 
@@ -26,9 +26,9 @@ const Favorites = (props) => {
           </div>
         </button>
       </div>
-      <Hotel />
-      <Hotel />
-      <Hotel />
+      <SelectedHotel />
+      <SelectedHotel />
+      <SelectedHotel />
     </div>
   );
 };
