@@ -38,6 +38,7 @@ input {
   height: 50px;
 }
 .label {
+  font-family: "Roboto";
   display: block;
   margin-bottom: 7px;
 }

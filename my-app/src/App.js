@@ -7,6 +7,7 @@ import LoginPage from "./components/loginPage/LoginPage";
 function App() {
   return (
     <BrowserRouter>
+      <Route path="/login" render={() => <LoginPage />} />
       <Route
         exact
         path="/"
@@ -18,8 +19,6 @@ function App() {
           </div>
         )}
       />
-
-      <Route path="/login" render={() => <LoginPage />} />
     </BrowserRouter>
   );
 }
