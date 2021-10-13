@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Content from "./components/content/Content";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import LoginPage from "./components/loginPage/LoginPage";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 function App() {
   return (
