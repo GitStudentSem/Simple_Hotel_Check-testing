@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <header className={s.header}>
       <p className={s.header_name}>Simple Hotel Check</p>
-      <NavLink to="/login" className={s.login_logout}>
+      <NavLink to="/" className={s.login_logout}>
         Выйти
         <img src={log_out} alt="Выйти из приложения" />
       </NavLink>

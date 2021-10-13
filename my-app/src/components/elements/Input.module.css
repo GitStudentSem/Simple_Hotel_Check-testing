@@ -17,10 +17,7 @@
   line-height: 14px;
   color: #eb1717;
 }
-/* Динамический стиль */
-.error {
-  color: #eb1717;
-}
+
 input {
   display: block;
   font-family: "Roboto";
@@ -41,4 +38,9 @@ input {
   font-family: "Roboto";
   display: block;
   margin-bottom: 7px;
+}
+/* Динамический стиль */
+.error {
+  color: #eb1717;
+  border-color: #eb1717;
 }

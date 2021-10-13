@@ -12,7 +12,7 @@ const LoginPage = (props) => {
           <h1 className={s.title}>Simple Hotel Check</h1>
           <Input label="Логин" type="text" />
           <Input label="Пароль" type="password" />
-          <NavLink to="/">
+          <NavLink to="/main">
             <Button text="Войти" />
           </NavLink>
         </form>
