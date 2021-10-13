@@ -1,11 +1,8 @@
 import React from "react";
 import s from "./Catalog.module.css";
 import arrow_left from "../../icons/arrow_left.svg";
-import image_1 from "./img/img_1.jpg";
-import image_2 from "./img/img_2.jpg";
-import image_3 from "./img/img_3.jpg";
-import image_4 from "./img/img_4.jpg";
 import Hotel from "./hotel/Hotel";
+import Carousel from "./carousel/Carousel";
 
 const Catalog = (props) => {
   return (
@@ -18,20 +15,7 @@ const Catalog = (props) => {
         </div>
         <p className={s.arrival_date}>07 июля 2020</p>
       </div>
-      <div className={s.slider}>
-        <div className={s.photo}>
-          <img src={image_1} alt="" />
-        </div>
-        <div className={s.photo}>
-          <img src={image_2} alt="" />
-        </div>
-        <div className={s.photo}>
-          <img src={image_3} alt="" />
-        </div>
-        <div className={s.photo}>
-          <img src={image_4} alt="" />
-        </div>
-      </div>
+      <Carousel />
       <p className={s.in_favorites}>
         Добавлено в Избранное: <span className={s.count}>3</span> отеля
       </p>

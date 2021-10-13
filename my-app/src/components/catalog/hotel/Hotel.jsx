@@ -3,7 +3,7 @@ import active_star from "../../../icons/active_star.svg";
 import disabled_star from "../../../icons/disabled_star.svg";
 import like from "../../../icons/like.svg";
 import s from "./Hotel.module.css";
-import hotel_img from "../img/hotel_img.svg";
+import hotel_img from "../../../icons/hotel_img.svg";
 
 const Hotel = (props) => {
   return (

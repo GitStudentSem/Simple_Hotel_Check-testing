@@ -1,0 +1,16 @@
+.slider {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.photo {
+  margin-right: 12px;
+}
+.photo img {
+  width: 164px;
+  height: 149px;
+  object-fit: cover;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
