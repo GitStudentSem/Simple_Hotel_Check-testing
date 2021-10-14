@@ -2,11 +2,11 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Content from "./components/content/Content";
 import LoginPage from "./components/loginPage/LoginPage";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" render={() => <LoginPage />} />
         <Route
@@ -19,10 +19,10 @@ function App() {
             </div>
           )}
         />
-        {/* Если адрес не верный то реконнект на главную */}
+        {/* Если адрес не верный то реконнект на главную, но нужно настроить логиназацию */}
         {/* <Redirect to="/" /> */}
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
