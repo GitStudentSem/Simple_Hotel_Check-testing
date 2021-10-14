@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Simple_Hotel_Check-testing/static/css/main.b956e9b2.chunk.css",
+    "main.js": "/Simple_Hotel_Check-testing/static/js/main.9d42bbf0.chunk.js",
+    "main.js.map": "/Simple_Hotel_Check-testing/static/js/main.9d42bbf0.chunk.js.map",
+    "runtime-main.js": "/Simple_Hotel_Check-testing/static/js/runtime-main.69791b25.js",
+    "runtime-main.js.map": "/Simple_Hotel_Check-testing/static/js/runtime-main.69791b25.js.map",
+    "static/js/2.8964c7aa.chunk.js": "/Simple_Hotel_Check-testing/static/js/2.8964c7aa.chunk.js",
+    "static/js/2.8964c7aa.chunk.js.map": "/Simple_Hotel_Check-testing/static/js/2.8964c7aa.chunk.js.map",
+    "static/js/3.763eb490.chunk.js": "/Simple_Hotel_Check-testing/static/js/3.763eb490.chunk.js",
+    "static/js/3.763eb490.chunk.js.map": "/Simple_Hotel_Check-testing/static/js/3.763eb490.chunk.js.map",
+    "index.html": "/Simple_Hotel_Check-testing/index.html",
+    "static/css/main.b956e9b2.chunk.css.map": "/Simple_Hotel_Check-testing/static/css/main.b956e9b2.chunk.css.map",
+    "static/js/2.8964c7aa.chunk.js.LICENSE.txt": "/Simple_Hotel_Check-testing/static/js/2.8964c7aa.chunk.js.LICENSE.txt",
+    "static/media/LoginPage.module.css": "/Simple_Hotel_Check-testing/static/media/IMG_20210312_140957_174 2.96009777.jpg",
+    "static/media/active_star.8ce09121.svg": "/Simple_Hotel_Check-testing/static/media/active_star.8ce09121.svg",
+    "static/media/arrow_bottom.fbe09a7e.svg": "/Simple_Hotel_Check-testing/static/media/arrow_bottom.fbe09a7e.svg",
+    "static/media/arrow_left.9998c04c.svg": "/Simple_Hotel_Check-testing/static/media/arrow_left.9998c04c.svg",
+    "static/media/arrow_top.2c1a319d.svg": "/Simple_Hotel_Check-testing/static/media/arrow_top.2c1a319d.svg",
+    "static/media/disabled_star.00ddaad4.svg": "/Simple_Hotel_Check-testing/static/media/disabled_star.00ddaad4.svg",
+    "static/media/hotel_img.81afdf8e.svg": "/Simple_Hotel_Check-testing/static/media/hotel_img.81afdf8e.svg",
+    "static/media/img_1.41db5618.jpg": "/Simple_Hotel_Check-testing/static/media/img_1.41db5618.jpg",
+    "static/media/img_2.25f4eaaf.jpg": "/Simple_Hotel_Check-testing/static/media/img_2.25f4eaaf.jpg",
+    "static/media/img_3.553b980b.jpg": "/Simple_Hotel_Check-testing/static/media/img_3.553b980b.jpg",
+    "static/media/img_4.9dbf74a2.jpg": "/Simple_Hotel_Check-testing/static/media/img_4.9dbf74a2.jpg",
+    "static/media/like.3d60a0c0.svg": "/Simple_Hotel_Check-testing/static/media/like.3d60a0c0.svg",
+    "static/media/log_out.f4fbe5f5.svg": "/Simple_Hotel_Check-testing/static/media/log_out.f4fbe5f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69791b25.js",
+    "static/js/2.8964c7aa.chunk.js",
+    "static/css/main.b956e9b2.chunk.css",
+    "static/js/main.9d42bbf0.chunk.js"
+  ]
+}
